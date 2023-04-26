@@ -15,9 +15,9 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 // connect to DB
-await connectDB;
+connectDB;
 
 // conenct to redis
-await connectRedis;
+connectRedis;
 
 
